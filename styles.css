@@ -6,17 +6,17 @@ body {
 }
 
 nav{
-    margin: 0;
+    /* margin: 0; */
 }
 
 #navbar {
     display: flex;
     align-items: center;
     background-color: #fff;
-    padding: 15px;
-    border-bottom: 1px solid black;
+    padding: 15px 25px;
+    border-bottom: 1px solid rgb(125, 125, 125);
     justify-content: space-between;
-    height: 5vh;
+    height: 5vh;    
 }
 
 #navbar h2 {
@@ -26,20 +26,29 @@ nav{
     border-radius: 3px;
 }
 
-#navbar input {
+.search-bar {
+    height: 25px;
     padding: 5px;
-    border-radius: 3px;
+    padding-left: 20px;
+    border-radius: 100px;
+    border: 1px solid rgb(177, 176, 176);
 }
 
-#navbar button {
+.login-btn {
+    height: 35px;
+    border-radius: 100px;
     padding: 5px 10px;
-    border-radius: 3px;
+    border: 1px solid rgb(177, 176, 176);
+    cursor: pointer;
+}
+
+
+.login-btn:hover{
+    background-color: rgb(181, 181, 181);
 }
 
 .sidebar{
     position: sticky;
-    /* background-color: bis/que; */
-    /* height: 95vh; */
     width: 25vw;
 }
 
