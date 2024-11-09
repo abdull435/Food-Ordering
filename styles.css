@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    margin: 0;
+}
+
+#navbar {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px;
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+    height: 5vh;
+}
+
+#navbar h2 {
+    display: inline-block;
+    margin: 0;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+#navbar input {
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#navbar button {
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+.sidebar{
+    position: sticky;
+    /* background-color: bis/que; */
+    /* height: 95vh; */
+    width: 25vw;
+}
+
+.sidebar ul{    
+    list-style-type: none;
+    height: 80vh;
+    margin: 10px;
+    margin-left: 0px;
+    margin-top: 60px;
+    margin-bottom: 0;
+}
+
+.sidebar ul li{
+    /* margin: 5px; */
+    width: 100%;
+    color: blue;
+    margin-left: 0;
+}
+.sidebar ul a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    padding: 10px 30px;    
+    display: block;
+    padding-left: 10px;
+    margin: 5px;
+}
+
+.sidebar ul li a:hover{
+    background-color: rgb(176, 173, 168);   
+    border-radius: 6px;
+    color: green;
+    transition: color 0.3ease;
+}
+
+ .hero-section{
+    display: flex;     
+} 
+
+#vegetable-pizza{
+    width: 75vw;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+
+.all{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    
+}
+
+.items{
+    margin: 10px;
+    display: flex;
+    border: 1px solid rgb(177, 177, 177);
+    border-radius: 10px;
+    width: 45%;
+    height: 20vh;
+}
+
+.sub-item{
+    margin: 20px;
+}
+
+
