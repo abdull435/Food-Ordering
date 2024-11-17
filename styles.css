@@ -5,18 +5,18 @@ body {
     padding: 0;
 }
 
-nav{
-    /* margin: 0; */
-}
-
 #navbar {
     display: flex;
     align-items: center;
     background-color: #fff;
-    padding: 15px 25px;
+    padding: 15px 30px;
     border-bottom: 1px solid rgb(125, 125, 125);
     justify-content: space-between;
-    height: 5vh;    
+    height: 10vh;    
+    position: fixed;
+    width: 100%;    
+    box-sizing: border-box;
+    top: 0;
 }
 
 #navbar h2 {
@@ -47,9 +47,21 @@ nav{
     background-color: rgb(181, 181, 181);
 }
 
+.hero-section{
+    display: flex;  
+    height: 90vh;  
+    margin-top: 10vh; 
+   /* overflow: hidden; */
+} 
+
+
 .sidebar{
-    position: sticky;
+    position: fixed;
     width: 25vw;
+    height: 90vh;
+    background-color: beige;
+    /* margin-top:10vh; */
+    /* overflow-y: auto; */
 }
 
 .sidebar ul{    
@@ -84,17 +96,17 @@ nav{
     transition: color 0.3ease;
 }
 
- .hero-section{
-    display: flex;     
-} 
-
-#vegetable-pizza{
+.items-container{
+    display: none;
     width: 75vw;
     margin-right: 30px;
     margin-bottom: 15px;
-    margin-left: 10px;
+    margin-left: 25vw;
+    overflow-y: auto; 
 }
-
+.items-container:target {
+    display: block; /* Show the section when targeted */
+}
 .all{
     display: flex;
     justify-content: space-around;
