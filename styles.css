@@ -60,8 +60,6 @@ body {
     width: 25vw;
     height: 90vh;
     background-color: beige;
-    /* margin-top:10vh; */
-    /* overflow-y: auto; */
 }
 
 .sidebar ul{    
@@ -106,6 +104,10 @@ body {
 }
 .items-container:target {
     display: block; /* Show the section when targeted */
+}
+
+#vegetable-pizza{
+    /* display: block; */
 }
 .all{
     display: flex;
